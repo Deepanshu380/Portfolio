@@ -61,7 +61,7 @@ const Hero = () => {
       <div className="flex flex-col w-[60%] md:w-auto">
         <img
           src="result.png"
-          alt="chaitanya"
+          alt="deep"
           className="w-[70%] md:w-full max-w-[400px] mx-auto hidden md:block"
         />
         <div className="flex p-4 mt-4 justify-evenly items-center -ml-4">

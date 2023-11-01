@@ -27,18 +27,18 @@ function App() {
     <div id="app">
       <Toaster/>
       <AnimatedCursor 
-        trailingSpeed={10}
-        color="0,0,0"
-        innerSize={8}
-        outerSize={35}
-        innerScale={1}
-        outerScale={1.7}
-        outerAlpha={0}
-        outerStyle={{
-          // border: '2px solid white',
-          backgroundColor: 'white',
-          mixBlendMode: 'exclusion'
-        }}
+        // trailingSpeed={10}
+        // color="0,0,0"
+        // innerSize={8}
+        // outerSize={35}
+        // innerScale={1}
+        // outerScale={1.7}
+        // outerAlpha={0}
+        // outerStyle={{
+        //   // border: '2px solid white',
+        //   backgroundColor: 'white',
+        //   mixBlendMode: 'exclusion'
+        // }}
         innerStyle={{
           // border: '2px solid white',
           backgroundColor: 'white',
