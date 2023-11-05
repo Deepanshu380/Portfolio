@@ -6,10 +6,10 @@ const Projects = () => {
       title: "StayNearU",
       desc: (
         <p>
-          The web app enables you to submit a request.It automatically finds
-          the nearest Pg with its filter feature.It helps users
-          to find the best and nearest Pg to his/her college by using Google Map
-          API, Google Auth, Chakra UI,Material UI (enhance performance by at least 7-9%).
+          The web app enables you to submit a request.It automatically finds the
+          nearest Pg with its filter feature.It helps users to find the best and
+          nearest Pg to his/her college by using Google Map API, Google Auth,
+          Chakra UI,Material UI (enhance performance by at least 7-9%).
         </p>
       ),
       techStack:
@@ -24,11 +24,10 @@ const Projects = () => {
       title: "Venatus -The Gaming Society of NSUT",
       desc: (
         <p>
-          "Venatus -The Gaming Society of NSUT is all about promoting esports
-          culture and team building games. Led the Front-End development of
-          a dynamic gaming website, resulting in a 12 % increase
-          in user engagement & Contributed to a [2%] increase in monthly active
-          users."
+          Venatus -The Gaming Society of NSUT is all about promoting esports
+          culture and team building games. Led the Front-End development of a
+          dynamic gaming website, resulting in a 12 % increase in user
+          engagement & Contributed to a [2%] increase in monthly active users."
           <br></br>
         </p>
       ),
@@ -44,23 +43,40 @@ const Projects = () => {
       title: "Netflix Clone",
       desc: (
         <p>
-          "Netflix is a cutting-edge web application that brings the magic of
+          Netflix is a cutting-edge web application that brings the magic of
           Netflix right to your fingertips. With its sleek design and
           user-friendly interface, Flixify offers an immersive streaming
-          experience that rivals the original Netflix platform."
+          experience that rivals the original Netflix platform.
           <br></br>
         </p>
       ),
-      techStack: "React,JavaScript,HTML,CSS,NextJs ",
+      techStack: "React,JavaScript,NextJs ",
       src: "netflix.png",
       website: true,
       websiteLink: "https://netflix-clone-17776.web.app/",
       githubLink: "https://github.com/Deepanshu380/Netflix-Clone",
     },
     {
+      title: "Tweetify",
+      desc: (
+        <p>
+          Allow users to create and update their profiles. Include features
+          like profile pictures, cover photos, bio, and location. <br></br>
+          Enable users to compose and post tweets. Display tweets in a
+          chronological order, with the most recent ones appearing at the top.
+          Include features like character limit, hashtags, and mentions.
+        </p>
+      ),
+      techStack: "React,JavaScript,Firebase ",
+      src: "Tweeverse.png",
+      website: true,
+      websiteLink: "https://tweeverse-11432.web.app/",
+      githubLink: "https://github.com/Deepanshu380/Tweetify",
+    },
+    {
       title: "Esports",
       desc: "Esports is a web front end which provides you to enroll for different LAN,Mobile Games Events and to see different fixtures & results.",
-      techStack: "React,JavaScript, CSS ",
+      techStack: "React,JavaScript",
       src: "esports.png",
       website: true,
       websiteLink: "https://esports-web-o-code.netlify.app/",
@@ -70,7 +86,7 @@ const Projects = () => {
     {
       title: "WeatherLens",
       desc: "WeatherLens is a weather app which displays the current weather of any city/state fetched from the OpenWeatherMap API. It is unique as it also displays the population of capital cities.",
-      techStack: "React,JavaScript, CSS",
+      techStack: "React,JavaScript",
       src: "proj3.png",
       website: true,
       websiteLink: "https://weather-io-react.vercel.app/",
