@@ -5,6 +5,7 @@ import {
   AiFillLinkedin,
   AiOutlineInstagram,
 } from "react-icons/ai";
+import { SiLeetcode } from "react-icons/si";
 
 // const Hero = () => {
 //   return (
@@ -178,17 +179,19 @@ const Hero = () => {
             <AiFillLinkedin
               size={40}
               className="  hover:scale-125 ease-in-out duration-500 w-[30px] h-[30px] xs:w-[40px] xs:h-[40px]"
+
             />
           </a>
           <a
-            href="https://instagram.com/deepanshu_380?igshid=OGQ5ZDc2ODk2ZA=="
+            href="https://leetcode.com/Noob_Coder_001/"
             target="_blank"
             rel="noreferrer"
           >
-            <AiOutlineInstagram
-              size={40}
-              className="  hover:scale-125 ease-in-out duration-500 w-[30px] h-[30px] xs:w-[40px] xs:h-[40px]"
-            />
+           <SiLeetcode 
+            size={40}
+            className=" hover:scale-125 ease-in-out duration-500 w-[30px]
+            h-[30px] xs:w-[40px] xs:h-[40px]" 
+             />
           </a>
         </div>
       </div>
