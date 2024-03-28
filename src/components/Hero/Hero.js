@@ -1,11 +1,11 @@
 import ReactTyped from "react-typed";
-import { Link } from 'react-scroll';
+import { Link } from "react-scroll";
 import {
   AiFillGithub,
   AiFillLinkedin,
   AiOutlineInstagram,
 } from "react-icons/ai";
-import { SiLeetcode } from "react-icons/si";
+import { SiLeetcode, SiLinktree } from "react-icons/si";
 
 // const Hero = () => {
 //   return (
@@ -114,13 +114,13 @@ const Hero = () => {
           DEEPANSHU
         </p>
         <div className="flex font-bold text-2xl md:text-3xl p-2 justify-center md:justify-normal">
-          <p className="hidden md:block">I'm a</p>
+          <p className="hidden md:block">I'm</p>
           <ReactTyped
             className="pl-2 text-[#79A9F5]"
             strings={[
-              "Web Developer",
-              "Frontend Developer",
-              "Aviation Enthusiast",
+              "A Web Developer",
+              "A Frontend Developer",
+              "An Aviation Enthusiast",
             ]}
             typeSpeed={50}
             backSpeed={40}
@@ -179,7 +179,6 @@ const Hero = () => {
             <AiFillLinkedin
               size={40}
               className="  hover:scale-125 ease-in-out duration-500 w-[30px] h-[30px] xs:w-[40px] xs:h-[40px]"
-
             />
           </a>
           <a
@@ -187,11 +186,22 @@ const Hero = () => {
             target="_blank"
             rel="noreferrer"
           >
-           <SiLeetcode 
-            size={40}
-            className=" hover:scale-125 ease-in-out duration-500 w-[30px]
-            h-[30px] xs:w-[40px] xs:h-[40px]" 
-             />
+            <SiLeetcode
+              size={40}
+              className=" hover:scale-125 ease-in-out duration-500 w-[30px]
+            h-[30px] xs:w-[40px] xs:h-[40px]"
+            />
+          </a>
+
+          <a
+            href="https://linktr.ee/Deepanshu380"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiLinktree
+              size={40}
+              className="  hover:scale-125 ease-in-out duration-500 w-[30px] h-[30px] xs:w-[40px] xs:h-[40px]"
+            />
           </a>
         </div>
       </div>
