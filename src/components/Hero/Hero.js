@@ -7,8 +7,6 @@ import {
 } from "react-icons/ai";
 import { SiLeetcode, SiLinktree } from "react-icons/si";
 
-
-
 const Hero = () => {
   return (
     <div
@@ -24,11 +22,7 @@ const Hero = () => {
           <p className="hidden md:block">I'm</p>
           <ReactTyped
             className="pl-2 text-[#79A9F5]"
-            strings={[
-              "A Web Developer",
-              "A Frontend Developer",
-              "An Aviation Enthusiast",
-            ]}
+            strings={["A Crazy Developer", "An Aviation Enthusiast"]}
             typeSpeed={50}
             backSpeed={40}
             loop
@@ -90,6 +84,17 @@ const Hero = () => {
           </a>
           <a
             href="https://leetcode.com/u/Itachi_Uchiha_01/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <SiLeetcode
+              size={40}
+              className=" hover:scale-125 ease-in-out duration-500 w-[30px]
+            h-[30px] xs:w-[40px] xs:h-[40px]"
+            />
+          </a>
+          <a
+            href="https://leetcode.com/u/Deepanshu018/"
             target="_blank"
             rel="noreferrer"
           >

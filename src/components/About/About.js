@@ -13,7 +13,7 @@ const About = () => {
         </p>
         <p className="w-full xs:w-[60%] lg:w-[50%] text-sm xs:text-base md:text-2xl">
           <span className="font-bold">Hello! I'm Deepanshu, </span>A passionate
-          Web Developer specializing in Frontend development with elementary
+          Developer specializing in Frontend development with elementary
           knowledge in Backend technologies. With a keen eye for design and a
           love for vibrant websites, I aim to create captivating websites that
           users enjoy. <br /> <br /> Moving forward, I'm excited to expand my
